@@ -16,13 +16,13 @@ const Contactus = () => {
         "service_3ou4xcz",
         "template_bmexwva",
         form.current,
-        "-laWOnBmpbd81JjjgrdYO"
+        "a_lrGY7ZPQ0ZrcPsZ"
       )
       .then(
         (result) => {
           console.log(result.text);
           e.target.reset();
-          alert("Email Sent!");
+          alert("Thank You for submitting..");
         },
         (error) => {
           console.log(error.text);
