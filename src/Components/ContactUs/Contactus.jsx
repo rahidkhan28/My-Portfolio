@@ -41,18 +41,21 @@ const Contactus = () => {
           className="name"
           placeholder="Your Name"
           name="from_name"
+          required
         />
         <input
           type="email"
           className="email"
           placeholder="Your Email"
           name="from_email"
+          required
         />
         <textarea
           className="msg"
           name="message"
           rows="5"
           placeholder="Your Message"
+          required
         ></textarea>
         <button type="submit" value="Send" className="submitBtn">
           Submit

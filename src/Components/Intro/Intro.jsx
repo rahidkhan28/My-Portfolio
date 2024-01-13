@@ -2,7 +2,7 @@ import React from "react";
 import "./intro.css";
 import bg from "../../assets/image.png";
 import btnimg from "../../assets/hireme.png"
-import { Link } from "react-scroll";
+import MohammedRahidKhanCV from "../../assets/MohammedRahidKhan-CV.pdf"
 
 const Intro = () => {
   return (
@@ -17,7 +17,9 @@ const Intro = () => {
           I am a skilled web developer in creating visually and <br />user friendly
           websites.
         </p>
-        <Link><button className="btn"><img src={btnimg} alt="Hire me" className="btnimg"/>Hire me</button></Link>
+        <a href={MohammedRahidKhanCV} download="cv">
+        <button className="btn"><img src={btnimg} alt="Hire me" className="btnimg"/>Download My CV</button>
+        </a>
       </div>
       <img src={bg} alt="profile" className="bg" />
     </section>

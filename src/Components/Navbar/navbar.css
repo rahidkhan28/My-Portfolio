@@ -1,5 +1,5 @@
 .navbar{
-    background: rgb(30, 30, 30);
+    background: #000000;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -22,9 +22,9 @@
     cursor: pointer;
 }
 .desktopMenuListitem:hover{
-    color: yellow;
+    color: red;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid red;
 }
 .desktopmenuBtn{
     background: white;
@@ -45,9 +45,9 @@
 }
 
 .active{
-    color: yellow;
+    color: red;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid red;
 }
 
 /* ----------------------------------------------------- */
